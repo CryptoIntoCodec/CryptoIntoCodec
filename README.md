@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @CryptoIntoCodec
-- 👀 I’m interested in Application Development
-- 🌱 I’m currently learning Flutter, and other native languages
-- 💞️ I’m looking to collaborate on projects that makes it more scalable and inhance performance
-- 📫 Rahuly4work@gmail.com and Info@mokido.com
+- 👀 I’m interested in Learning new technologies and I love mobile application Development
+- 🌱 I’m currently newbie here and want some some help and support learning new technologies.
+- 📫 Rahuly4work@gmail.com
 
