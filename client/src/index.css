@@ -1,0 +1,30 @@
+:root{
+  --bg:#ffffff;
+  --text:#0f172a;
+  --accent:#2563eb;
+  --card:#f8fafc;
+}
+
+[data-theme="dark"]{
+  --bg:#0b1220;
+  --text:#e6eef8;
+  --accent:#60a5fa;
+  --card:#071022;
+}
+
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,Arial,Helvetica,sans-serif}
+.container{max-width:1000px;margin:32px auto;padding:0 16px}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+.nav a{color:var(--text);text-decoration:none;margin-left:12px}
+.card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 1px 4px rgba(2,6,23,0.08)}
+.card img{display:block;width:100%;height:auto}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.form-row{display:flex;flex-direction:column;margin-bottom:8px}
+.button{background:var(--accent);color:white;padding:10px 14px;border-radius:8px;border:none;cursor:pointer}
+.toggle{cursor:pointer;padding:8px;border-radius:8px}
+.project-detail img{max-height:420px;object-fit:cover}
+@media(min-width:700px){
+  .nav a{margin-left:20px}
+}
